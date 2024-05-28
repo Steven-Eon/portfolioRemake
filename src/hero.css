@@ -1,0 +1,81 @@
+@keyframes tickerAnimation {
+    from {opacity: 100;}
+    to {opacity: 0;}
+}
+
+.animationOne {
+    display: flex;
+    white-space: normal;
+    align-items: center;
+    justify-content: center;
+}
+
+.tickerBar {
+    font-weight:bolder;
+    border-block: 0px;
+    border-right: 0px;
+    border-left: 1px;
+    height: 1em;
+    align-self: center;
+    justify-self: center;
+    border-color: black;
+    border-style: solid;
+    animation-name: tickerAnimation;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.portrait {
+    flex-shrink: 1;
+    object-fit: fill;
+    border-radius: 50%;
+    max-width: 20vw;
+    max-height: 20vh;
+    border: solid, 0.5em, #fff;
+}
+
+.textAdder {
+    font-weight:bolder;
+    font-size: 1.5em;
+}
+
+.distribute {
+    width: 30%;
+}
+
+.evenDistribute {
+    max-height: 50%;
+}
+
+@media (max-width:600px) {
+    .hero {
+        z-index: 2;
+        height: 100vh;
+        max-height: 100vh;
+        width: 100%;
+        border-bottom-color: gray;
+        border-bottom-width: 1em;
+        flex-direction: column;
+    }
+
+    .animationOne {
+        font-size: 0.75em;
+    }
+}
+
+@media (min-width:601px) {
+    .hero {
+        z-index: 2;
+        height: 100vh;
+        max-height: 100vh;
+        width: 100%;
+        border-bottom-color: gray;
+        border-bottom-width: 1em;
+        flex-direction: row;
+    }
+
+    .animationOne {
+        font-size: 2em;
+    }
+}

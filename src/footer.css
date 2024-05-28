@@ -1,0 +1,27 @@
+.footer {
+    margin-top: max(10vh, 2em);
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-bottom: 5vh;
+}
+
+.form {
+    margin-bottom: 1em;
+}
+
+.form input, .form textarea{
+    color:black;
+}
+
+.form textarea {
+    width: 35%;
+
+}
+
+.footerHeader {
+    margin-top: max(5vh, 1em);
+    font-size: 3em;
+    font-weight: bolder;
+}

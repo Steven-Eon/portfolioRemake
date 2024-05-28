@@ -1,0 +1,39 @@
+.timeLine {
+    margin-top: max(10vh, 2em);
+    height: auto;
+    width: 100%;
+}
+
+.timeLineContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.timeLineList {
+    width: 80%;
+}
+
+.timeLineTitle {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.timeLineItem div h2 {
+    margin-inline: 1em;
+}
+
+.timeLineContainer div {
+    border-left: solid black 0.25em;
+}
+
+.timeLineItemContent h2 {
+    font-weight: bold;
+}
+
+.timeLineContinuation {
+    margin-left: 4.4em;
+}

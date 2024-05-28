@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Reddit+Mono:wght@200..900&display=swap');
+
+* {
+    font-family: "Reddit Mono", monospace, 'Times New Roman', Times, serif;
+
+}
+
+.bar {
+    z-index: 4;
+    opacity: 80%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.aButton {
+    z-index: 10;
+    border-radius: 0.5rem;
+    background: linear-gradient(0deg, rgba(151, 151, 151, 0.95) 0%, rgba(255,255,255,1) 80%);
+    background-size: 200% 400%;
+    background-position: 0% 0%;
+    transition-timing-function: ease-in-out;
+    transition: 1s;
+}
+
+.aButton:hover {
+    background-position: 100% 25%;
+}

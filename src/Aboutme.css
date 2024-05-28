@@ -1,0 +1,35 @@
+.aboutMe {
+    margin-top: max(0.5em, 10vh);
+    height: auto;
+}
+
+.titleText {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.githubmark, .linkedInMark {
+    max-width: 2em;
+    margin-right: 0.5em;
+}
+
+div.githubmark span, div.linkedInMark span {
+    font-size: min(15vw, 1em);
+}
+
+.generalText {
+    margin-inline: 15vw;
+}
+
+.buttonContainer a{
+    margin-inline: 1em;
+    border-radius: 9999px;
+    background: linear-gradient(90deg, rgba(0,0,0, 1) 0%, rgba(151, 151, 151, 0.75) 80%);
+    background-size: 400% 400%;
+    background-position: 0% 0%;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+.buttonContainer a:hover {
+    background-position: 45% 100%;
+}
